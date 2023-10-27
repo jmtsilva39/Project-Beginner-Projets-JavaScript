@@ -1,18 +1,16 @@
-body{
+/*Define background para página toda*/
+body {
     background: #06bcc1;
 }
 
-
 .container{
-    border: 1px solid red;
     width: 95%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
+    text-align: center;
 }
 
 .quotes{
-    border: 1px solid black;
-
     width: 900px;
     height: 450px;
     margin: auto;
@@ -23,7 +21,7 @@ body{
     padding: 0 50px;
     color: gray;
     background-color: #f4edea;
-    border: 10px solid #f4edea;
+    border: 10px solid #f4d1ae;
 }
 
 .quotes p{
