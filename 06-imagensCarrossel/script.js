@@ -3,7 +3,7 @@ var index = 0;
 show_image(index);
 
 function show_image(i){
-    index = 1;
+    index += 1;
 
     var images = document.getElementsByClassName("image");
 console.log(images);
